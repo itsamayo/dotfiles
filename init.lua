@@ -23,10 +23,6 @@ require("lazy").setup({
   },
 
   { import = "plugins" },
-  { import = "plugins.formatting" },
-  { import = "plugins.git" },
-  { import = "plugins.hop" },
-  { import = "plugins.linting" },
 }, lazy_config)
 
 -- load theme
