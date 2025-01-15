@@ -9,5 +9,6 @@ return {
     },
     config = true,
     lazy = false,
-  },  
+  },
 }
+

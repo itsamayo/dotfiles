@@ -1,4 +1,4 @@
-return {  
+return {
   {
     "stevearc/conform.nvim",
     event = { "BufReadPre", "BufNewFile" },
@@ -36,3 +36,4 @@ return {
     end,
   },
 }
+
