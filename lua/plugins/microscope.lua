@@ -4,7 +4,7 @@ return {
     config = function()
       require("microscope.module").setup {
         keymaps = {
-          fold = "<leader>ff",
+          fold = "<leader>fg",
         },
       }
     end,
