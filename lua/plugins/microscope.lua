@@ -4,7 +4,8 @@ return {
     config = function()
       require("microscope.module").setup {
         keymaps = {
-          fold = "<leader>fg",
+          fold = "<leader>ze",
+          grep = "<leader>fg",
         },
       }
     end,
