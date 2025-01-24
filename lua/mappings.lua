@@ -50,4 +50,8 @@ map("n", "<leader>gca", "<cmd>Telescope git_commits<CR>", { desc = "See all git 
 map("n", "<leader>gcb", "<cmd>Telescope git_bcommits<CR>", { desc = "See buffer commits" })
 map("n", "<leader>gs", "<cmd>Telescope git_stash<CR>", { desc = "See git stash" })
 
+map({ "n", "v" }, "<C-t>", function()
+  require("menu").open "default"
+end, {})
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
