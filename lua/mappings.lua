@@ -55,3 +55,13 @@ map({ "n", "v" }, "<C-t>", function()
 end, {})
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+
+map("n", "<leader>dv", function()
+  if next(require("diffview.lib").views) == nil then
+    vim.cmd "DiffviewOpen"
+  else
+    vim.cmd "DiffviewClose"
+  end
+end, {
+  desc = "Toggle Diffview window",
+})
