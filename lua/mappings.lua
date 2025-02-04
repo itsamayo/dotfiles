@@ -77,3 +77,6 @@ map("n", "<leader>gR", "<cmd>Gitsigns reset_buffer<cr>", { desc = "Gitsigns rese
 map("n", "<leader>gS", "<cmd>Gitsigns stage_buffer<cr>", { desc = "Gitsigns stage buffer" })
 map("n", "<leader>gU", "<cmd>Gitsigns reset_buffer_index<cr>", { desc = "Gitsigns unstage buffer" })
 map("n", "<leader>gD", "<cmd>Gitsigns diffthis<cr>", { desc = "Gitsigns diff buffer" })
+
+-- Select func shortcut
+map("n", "<leader>sf", "V$%", { desc = "Shortcut select entire function" })
