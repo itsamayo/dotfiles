@@ -65,3 +65,15 @@ map("n", "<leader>dv", function()
 end, {
   desc = "Toggle Diffview window",
 })
+
+-- Gitsigns
+map("n", "<leader>gba", "<cmd>Gitsigns blame<cr>", { desc = "Gitsigns blame all" })
+map("n", "<leader>gbl", "<cmd>Gitsigns blame_line<cr>", { desc = "Gitsigns blame line" })
+map("n", "<leader>gn", "<cmd>Gitsigns next_hunk<cr>", { desc = "Gitsigns next hunk" })
+map("n", "<leader>gp", "<cmd>Gitsigns prev_hunk<cr>", { desc = "Gitsigns prev hunk" })
+map("n", "<leader>gP", "<cmd>Gitsigns preview_hunk<cr>", { desc = "Gitsigns preview hunk" })
+map("n", "<leader>gH", "<cmd>Gitsigns reset_hunk<cr>", { desc = "Gitsigns rest hunk" })
+map("n", "<leader>gR", "<cmd>Gitsigns reset_buffer<cr>", { desc = "Gitsigns reset buffer" })
+map("n", "<leader>gS", "<cmd>Gitsigns stage_buffer<cr>", { desc = "Gitsigns stage buffer" })
+map("n", "<leader>gU", "<cmd>Gitsigns reset_buffer_index<cr>", { desc = "Gitsigns unstage buffer" })
+map("n", "<leader>gD", "<cmd>Gitsigns diffthis<cr>", { desc = "Gitsigns diff buffer" })
